@@ -1,45 +1,16 @@
 
-    .text-warning{
-        color: darkorange !important;
-    }
-    .bg-warning{
-        color: darkorange !important;
-    }
-    .border-warning{
-        color: darkorange !important;
-    }
-#communiquer{
-    background: linear-gradient(transparent 70%, rgba(3, 3, 3, 0.698) 100%),
-                url(images/communiquer.jpg) no-repeat center;
-                background-size: 100% 100%;
-                padding-top: 250px;
-}
-#connecter{
-    background: linear-gradient(transparent 70%, rgba(3, 3, 3, 0.698) 100%),
-                url(images/connecter.png) no-repeat center;
-                background-size: 100% 100%;
-                padding-top: 250px;
-}
-#securite{
-    background: linear-gradient(transparent 70%, rgba(3, 3, 3, 0.698) 100%),
-                url(images/securiser.png)no-repeat center;
-                background-size: 100% 100%;
-                padding-top: 250px;
-}
-#digitaliser{
-    background: linear-gradient(transparent 70%, rgba(3, 3, 3, 0.698) 100%),
-                url(images/digitaliser.png)no-repeat center;
-                background-size: 100% 100%;
-                padding-top: 250px;
-}
-#egibilite{
+#eligibilite{
     background-color: rgba(253, 146, 107, 0.501);
 }
 #suivi{
     background-color: rgba(240, 132, 0, 0.448);
 }
+#solution{
+    background: url(images/solution2.jpg) no-repeat ;
+    background-size: 100% 100%;
+}
 @media screen and (max-width:768px) {
-    #egibilite img,
+    #eligibilite img,
     #suivi img{
     transform: rotate(90deg);
     margin-left: 25px;
